@@ -523,7 +523,7 @@ The button does not perform any actions yet, so you need to create a microflow t
     * Range: `First`
     * Object name: `Agent` (default)
 
-4. Add the `Call Agent Without History` action from the toolbox to invoke the agent with the `TicketHelper` object containing the user input:
+4. Add the `Call Agent` action from the toolbox to invoke the agent with the `TicketHelper` object containing the user input:
 
     * Agent: `Agent` (the object that was previously retrieved)
     * Optional context object: `TicketHelper` (input parameter)
